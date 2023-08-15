@@ -8,7 +8,7 @@
 
 pip3 install -r requirements.txt
 
-需要安装Edge浏览器
+### 安装Edge浏览器
 
 本脚本使用的是Edge浏览器，请自行下载对应的webdrive版本：
 
@@ -19,6 +19,21 @@ https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/
 https://msedgewebdriverstorage.z22.web.core.windows.net/
 
 下载之后需将"msedgedriver.exe"修改为"MicrosoftWebDriver.exe"，并将该文件放入python3的安装文件夹目录下
+
+### 调试脚本
+打开.py文件 需要修改以下内容
+
+账号密码信息
+
+这里填写账号密码信息
+
+username="username"
+
+passwd="password"
+
+这里放你的SVN地址（不需要带https://）
+
+url_ip = "x.x.x.x/svn/XXXX/"
 
 ## 运行脚本
 python3 SvnTraverse.py
